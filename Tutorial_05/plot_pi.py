@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -16,7 +15,7 @@ plt.grid(True)
 plt.savefig("graph1_pi_estimate.png", dpi=150, bbox_inches="tight")
 plt.show()
 
-# Graph 2: Number of points vs absolute error
+# Graph 2 is Number of points vs absolute error
 plt.figure(figsize=(8, 5))
 plt.loglog(df["Points"], df["AbsoluteError"], marker="o")
 plt.xlabel("Number of points")
